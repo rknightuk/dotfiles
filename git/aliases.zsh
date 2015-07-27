@@ -12,3 +12,4 @@ alias gp='git push origin HEAD'
 alias gc='git commit'
 alias gb='git branch'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
+alias ga='git add --all'
