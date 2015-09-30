@@ -5,7 +5,7 @@
         protocol = https
 [user]
         name = Wade Urry
-        email = wader@iwader.co.uk
+        email = wade@iwader.co.uk 
 [credential]
         helper = osxkeychain
 [alias]
