@@ -1,3 +1,3 @@
 alias reload!='. ~/.zshrc'
-eval "$(thefuck-alias)"
+eval "$(thefuck --alias)"
 alias cl='clear'
