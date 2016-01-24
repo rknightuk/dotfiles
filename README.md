@@ -17,7 +17,7 @@ script/bootstrap
 ## Credits
 
 Forked from [holman/dotfiles][fork]
-Cobalt2 theme from [wedbos/Cobalt2-iterm][theme]
+Cobalt2 theme from [wesbos/Cobalt2-iterm][theme]
 
 ## License
 
