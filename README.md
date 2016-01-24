@@ -8,6 +8,8 @@ cd ~/.dotfiles
 script/bootstrap
 ```
 
+Periodically run `dot`, this will keep your environment updated. You can find the file at `bin/dot`.
+
 ## iTerm2 Settings
 
 1. Preferences > Profiles
