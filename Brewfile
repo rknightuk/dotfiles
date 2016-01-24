@@ -6,6 +6,7 @@ tap 'homebrew/bundle'
 brew 'ack'
 brew 'coreutils'
 brew 'grc'
+brew 'unrar'
 brew 'wget'
 
 cask '1password'
