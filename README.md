@@ -3,7 +3,7 @@
 ## Install
 
 ```
-git clone git@github.com:iWader/dotfiles.git ~/.dotfiles
+git clone --recursive git@github.com:iWader/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
