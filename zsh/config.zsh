@@ -7,7 +7,7 @@ fi
 export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
 
-fpath=($ZSH/functions $fpath)
+fpath=($ZSH/functions $ZSH/zsh-completions/src $fpath)
 
 autoload -U $ZSH/functions/*(:t)
 
