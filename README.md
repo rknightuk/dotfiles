@@ -47,4 +47,4 @@ MIT. See [LICENSE][license] file for more info.
 [fork]: https://github.com/holman/dotfiles
 [theme]: https://github.com/wesbos/Cobalt2-iterm
 [zsh-completions]: https://github.com/zsh-users/zsh-completions 
-[license]: LICENSE
+[license]: LICENSE.md
