@@ -7,6 +7,8 @@ brew 'coreutils'
 brew 'grc'
 brew 'unrar'
 brew 'wget'
+brew 'thefuck'
+brew 'hub'
 
 cask '1password'
 cask 'atom'
