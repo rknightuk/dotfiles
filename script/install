@@ -6,6 +6,9 @@ set -e
 
 cd "$(dirname $0)"/..
 
+# Tap homebrew/bundle
+brew tap homebrew/bundle
+
 # Run Homebrew through the Brewfile
 echo "› bundle (This could take a while)"
 brew bundle
