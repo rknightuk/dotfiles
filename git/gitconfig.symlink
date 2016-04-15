@@ -18,6 +18,8 @@
         status = auto
         branch = auto
         ui = true
+[branch]
+	autosetuprebase = always
 [core]
         excludesfile = ~/.gitignore
         editor = /usr/bin/vim
