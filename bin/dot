@@ -16,6 +16,10 @@ $ZSH/homebrew/install.sh 2>&1
 echo "› brew update"
 $ZSH/homebrew/update.sh 2>&1
 
+# Cleanup homebrew
+echo "› brew cleanup"
+$ZSH/homebrew/cleanup.sh 2>&1
+
 # Install software
 echo "› $ZSH/script/install"
 $ZSH/script/install
