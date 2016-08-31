@@ -6,4 +6,4 @@ alias a="php artisan"
 alias phpunit="./vendor/bin/phpunit"
 alias gulp="./node_modules/gulp/bin/gulp.js"
 alias karma="./node_modules/karma/bin/karma"
-
+alias webpack="./node_modules/webpack/bin/webpack.js"
