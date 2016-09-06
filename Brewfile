@@ -12,6 +12,8 @@ brew 'thefuck'
 brew 'hub'
 brew 'keybase'
 brew 'gpg'
+brew 'gpg-agent'
+brew 'pinentry-mac'
 
 cask '1password'
 cask 'atom'
