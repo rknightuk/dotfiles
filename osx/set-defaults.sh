@@ -94,8 +94,9 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 # Group windows by application in Mission Control
 defaults write com.apple.dock expose-group-by-app -bool true
 
-# Set a really fast key repeat.
-defaults write NSGlobalDomain KeyRepeat -int 0
+# Set a fast-not-so-fast key repeat. (Sierra seems to have broken this one *cries*)
+defaults write NSGlobalDomain KeyRepeat -float 0.00001
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 # Set the Finder prefs for showing a few different volumes on the Desktop.
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
