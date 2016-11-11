@@ -14,6 +14,7 @@ brew 'keybase'
 brew 'gpg'
 brew 'gpg-agent'
 brew 'pinentry-mac'
+brew 'yarn'
 
 cask '1password'
 cask 'atom'
