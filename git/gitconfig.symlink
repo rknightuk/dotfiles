@@ -40,3 +40,5 @@
         default = simple
 [commit]
 	gpgsign = true
+[rebase]
+	autostash = true
