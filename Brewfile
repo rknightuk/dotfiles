@@ -29,3 +29,7 @@ cask 'spotify'
 cask 'docker'
 cask 'quitter'
 cask 'imageoptim'
+
+mas 'Clocks', id: 414554506
+mas 'Boxy', id: 1053031090
+mas 'Xcode', id: 497799835
