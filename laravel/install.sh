@@ -5,6 +5,7 @@ COMPOSER_ARGS="--no-interaction --quiet"
 
 composer global require "laravel/installer" $COMPOSER_ARGS
 composer global require "laravel/lumen-installer":"dev-master" $COMPOSER_ARGS
+composer global require "laravel/spark-installer" $COMPOSER_ARGS
 
 if ! vagrant box list | grep --quiet "laravel\/homestead"
 then
