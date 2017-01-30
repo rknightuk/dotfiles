@@ -136,3 +136,6 @@ defaults write com.apple.ActivityMonitor SortDirection -int 0
 
 # Prevent Photos from opening automatically when devices are plugged in
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
+
+# Disable App Nap
+defaults write NSGlobalDomain NSAppSleepDisabled -bool YES
