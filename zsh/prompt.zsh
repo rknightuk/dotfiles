@@ -34,6 +34,7 @@ fi
 
 CURRENT_BG='NONE'
 SEGMENT_SEPARATOR=''
+DEFAULT_USER='wade'
 
 ## huh dont need this
 collapse_pwd() {
@@ -78,7 +79,7 @@ prompt_context() {
   local user=`whoami`
 
   if [[ "$user" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-    prompt_segment black default "%(!.%{%F{yellow}%}.)✝"
+    prompt_segment black default "%(!.%{%F{yellow}%}.)"
   fi
 }
 
