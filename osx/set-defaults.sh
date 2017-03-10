@@ -70,7 +70,7 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Use AirDrop over every interface. srsly this should be a default.
-defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
+defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 
 # Show all the damn files
 defaults write com.apple.finder AppleShowAllFiles YES
@@ -139,3 +139,7 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
 # Disable App Nap
 defaults write NSGlobalDomain NSAppSleepDisabled -bool YES
+
+# Avoid creating .DS_Store files on network or USB volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
