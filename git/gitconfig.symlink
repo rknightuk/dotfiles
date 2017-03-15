@@ -11,6 +11,7 @@
         helper = osxkeychain
 [alias]
         co = checkout
+        cp = cherry-pick
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
