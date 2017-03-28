@@ -6,6 +6,7 @@ apm install editorconfig \
             recent-files-fuzzy-finder \
             zentabs \
             wakatime \
+            minimap \
             php-composer-completion \
             php-integrator-base \
             php-integrator-annotations \
