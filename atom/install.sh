@@ -7,6 +7,8 @@ apm install editorconfig \
             zentabs \
             wakatime \
             minimap \
+            pigments \
+            minimap-pigments \
             php-composer-completion \
             php-integrator-base \
             php-integrator-annotations \
