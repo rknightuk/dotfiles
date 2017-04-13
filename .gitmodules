@@ -7,6 +7,3 @@
 [submodule "zsh-completions"]
 	path = zsh-completions
 	url = https://github.com/zsh-users/zsh-completions
-[submodule "zsh-customization/themes/powerlevel9k"]
-	path = zsh-customization/themes/powerlevel9k
-	url = https://github.com/bhilburn/powerlevel9k
