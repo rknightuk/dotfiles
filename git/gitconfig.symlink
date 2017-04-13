@@ -59,3 +59,18 @@
 
 [rerere]
 	enabled = 1
+
+[url "git@github.com:"]
+	insteadOf = "gh:"
+	insteadOf = "git://github.com/"
+	insteadOf = "https://github.com/"
+
+[url "git@bitbucket.org:"]
+	insteadOf = "bb:"
+	insteadOf = "git://bitbucket.org/"
+	insteadOf = "https://bitbucket.org/"
+
+[url "git@gitlab.com:"]
+	insteadOf = "gl:"
+	insteadOf = "git://gitlab.com/"
+	insteadOf = "https://gitlab.com/"
