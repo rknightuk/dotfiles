@@ -1,6 +1,9 @@
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
 
+# set custom directory
+ZSH_CUSTOM=$ZSH/zsh-customization
+
 # your project folder that we can `c [tab]` to
 export PROJECTS=~/Code
 
