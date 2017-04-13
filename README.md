@@ -36,9 +36,11 @@ There's a few special files in the hierarchy.
 
 ## Credits
 
-Forked from [holman/dotfiles][fork]
-Cobalt2 theme from [wesbos/Cobalt2-iterm][theme]
-Completion from [zsh-users/zsh-completions][zsh-completions]
+- Forked from [holman/dotfiles][fork]
+- Cobalt2 theme from [wesbos/Cobalt2-iterm][theme]
+- Completion [zsh-users/zsh-completions][zsh-completions]
+- Powerline Fonts [powerline/fonts][powerline]
+- Awesome Terminal Fonts [gabrielelana/awesome-terminal-fonts][awesome-terminal-fonts]
 
 ## License
 
@@ -47,4 +49,6 @@ MIT. See [LICENSE][license] file for more info.
 [fork]: https://github.com/holman/dotfiles
 [theme]: https://github.com/wesbos/Cobalt2-iterm
 [zsh-completions]: https://github.com/zsh-users/zsh-completions 
+[powerline]: https://github.com/powerline/fonts
+[awesome-terminal-fonts]: https://github.com/gabrielelana/awesome-terminal-fonts
 [license]: LICENSE.md

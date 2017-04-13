@@ -1,6 +1,9 @@
 [submodule "fonts/powerline"]
 	path = fonts/powerline
 	url = https://github.com/powerline/fonts
+[submodule "fonts/awesome-terminal-fonts"]
+        path = fonts/awesome-terminal-fonts
+        url = https://github.com/gabrielelana/awesome-terminal-fonts
 [submodule "zsh-completions"]
 	path = zsh-completions
 	url = https://github.com/zsh-users/zsh-completions
