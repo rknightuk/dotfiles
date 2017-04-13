@@ -1,5 +1,5 @@
-[submodule "fonts"]
-	path = fonts
+[submodule "fonts/powerline"]
+	path = fonts/powerline
 	url = https://github.com/powerline/fonts
 [submodule "zsh-completions"]
 	path = zsh-completions
