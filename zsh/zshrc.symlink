@@ -4,6 +4,9 @@ export ZSH=$HOME/.dotfiles
 # set custom directory
 ZSH_CUSTOM=$ZSH/zsh-customization
 
+# set theme
+ZSH_THEME="powerlevel9k/powerlevel9k"
+
 # your project folder that we can `c [tab]` to
 export PROJECTS=~/Code
 
