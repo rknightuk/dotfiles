@@ -36,8 +36,9 @@ There's a few special files in the hierarchy.
 
 ## Credits
 
-- Forked from [holman/dotfiles][fork]
-- Cobalt2 theme from [wesbos/Cobalt2-iterm][theme]
+- Originally forked from [holman/dotfiles][fork]
+- Cobalt2 (iTerm) [wesbos/Cobalt2-iterm][iterm-theme]
+- powerlevel9k (ZSH) [bhilburn/powerlevel9k][zsh-theme]
 - Completion [zsh-users/zsh-completions][zsh-completions]
 - Powerline Fonts [powerline/fonts][powerline]
 - Awesome Terminal Fonts [gabrielelana/awesome-terminal-fonts][awesome-terminal-fonts]
@@ -47,8 +48,9 @@ There's a few special files in the hierarchy.
 MIT. See [LICENSE][license] file for more info.
 
 [fork]: https://github.com/holman/dotfiles
-[theme]: https://github.com/wesbos/Cobalt2-iterm
-[zsh-completions]: https://github.com/zsh-users/zsh-completions 
+[iterm-theme]: https://github.com/wesbos/Cobalt2-iterm
+[zsh-theme]: https://github.com/bhilburn/powerlevel9k
+[zsh-completions]: https://github.com/zsh-users/zsh-completions
 [powerline]: https://github.com/powerline/fonts
 [awesome-terminal-fonts]: https://github.com/gabrielelana/awesome-terminal-fonts
 [license]: LICENSE.md

@@ -1,14 +1,14 @@
-# shortcut to this dotfiles path is $ZSH
-export ZSH=$HOME/.dotfiles
+export DOTFILES=$HOME/.dotfiles
+export ZSH=$DOTFILES/oh-my-zsh
 
-# set custom directory
-ZSH_CUSTOM=$ZSH/zsh-customization
+# Theme configuration
+POWERLEVEL9K_MODE="awesome-patched"
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator time)
+POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 
 # set theme
 ZSH_THEME="powerlevel9k/powerlevel9k"
-
-# your project folder that we can `c [tab]` to
-export PROJECTS=~/Code
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
@@ -18,9 +18,16 @@ then
   source ~/.localrc
 fi
 
+DEFAULT_USER="wade"
+
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
 # all of our zsh files
+setopt EXTENDED_GLOB
 typeset -U config_files
-config_files=($ZSH/**/*.zsh)
+config_files=($DOTFILES/(^oh\-my\-zsh/)#*.zsh)
 
 # load the path files
 for file in ${(M)config_files:#*/path.zsh}
@@ -33,10 +40,6 @@ for file in ${${config_files:#*/path.zsh}:#*/completion.zsh}
 do
   source $file
 done
-
-# initialize autocomplete here, otherwise functions won't be loaded
-autoload -U compinit
-compinit
 
 # load every completion after autocomplete loads
 for file in ${(M)config_files:#*/completion.zsh}

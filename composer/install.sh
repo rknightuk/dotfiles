@@ -1,1 +1,1 @@
-curl -sS https://getcomposer.org/installer | php -- --install-dir="$ZSH/bin" --filename=composer
+curl -sS https://getcomposer.org/installer | php -- --install-dir="$DOTFILES/bin" --filename=composer
