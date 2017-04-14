@@ -14,4 +14,4 @@ echo "› bundle (This could take a while)"
 brew bundle
 
 # find the installers and run them iteratively
-find . -name install.sh | while read installer ; do sh -c "${installer}" ; done
+find . -name install.sh -not -path './oh-my-zsh/*' | while read installer ; do sh -c "${installer}" ; done
