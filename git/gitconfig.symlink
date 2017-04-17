@@ -42,7 +42,7 @@
         prompt = false
 
 [help]
-        autocorrect = 1
+        autocorrect = 20
 
 [push]
         # See `git help config` (search for push.default)
