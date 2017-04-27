@@ -17,4 +17,5 @@ apm install editorconfig \
             php-integrator-linter \
             php-integrator-navigation \
             php-integrator-refactoring \
-            php-integrator-tooltips
+            php-integrator-tooltips \
+            atom-shell-commands
