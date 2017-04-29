@@ -33,3 +33,4 @@ cask 'docker-toolbox'
 mas 'Clocks', id: 414554506
 mas 'Boxy', id: 1053031090
 mas 'Xcode', id: 497799835
+mas 'littleipsum', id: 405772121
