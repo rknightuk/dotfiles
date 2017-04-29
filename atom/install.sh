@@ -18,4 +18,5 @@ apm install editorconfig \
             php-integrator-navigation \
             php-integrator-refactoring \
             php-integrator-tooltips \
-            atom-shell-commands
+            atom-shell-commands \
+            emmet
