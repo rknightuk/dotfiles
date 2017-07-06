@@ -29,6 +29,7 @@ cask 'docker'
 cask 'quitter'
 cask 'imageoptim'
 cask 'docker-toolbox'
+cask 'gitify'
 
 mas 'Clocks', id: 414554506
 mas 'Boxy', id: 1053031090
