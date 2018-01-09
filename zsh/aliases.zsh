@@ -18,6 +18,7 @@ alias grunt="./node_modules/.bin/grunt"
 alias flow="./node_modules/.bin/flow"
 alias flow-typed="./node_modules/.bin/flow-typed"
 alias jest="./node_modules/.bin/jest"
+alias prettier="./node_modules/.bin/prettier"
 
 # Utils
 alias uuid="uuidgen | tr -d '\n' | tr '[:upper:]' '[:lower:]' | pbcopy && pbpaste && echo"
