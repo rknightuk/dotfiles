@@ -20,8 +20,6 @@ fi
 
 DEFAULT_USER="wade"
 
-plugins=(git)
-
 source $ZSH/oh-my-zsh.sh
 
 # all of our zsh files
