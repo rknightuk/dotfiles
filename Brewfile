@@ -13,6 +13,7 @@ brew 'gpg-agent'
 brew 'pinentry-mac'
 brew 'yarn'
 brew 'mas'
+brew 'pick'
 
 cask '1password'
 cask 'atom'
