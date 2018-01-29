@@ -17,7 +17,7 @@ alias gd='git diff --staged'
 
 function gco() {
     if [ $# -eq 0 ]; then
-        git checkout $(git branch | pick)
+        git checkout $(gb | pick | awk '{print $1;}')
     else
         git checkout "$@"
     fi
