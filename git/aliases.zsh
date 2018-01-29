@@ -14,3 +14,11 @@ alias gb='git branch -vv'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias ga='git add --all'
 alias gd='git diff --staged'
+
+function gco() {
+    if [ $# -eq 0 ]; then
+        git checkout $(git branch | pick)
+    else
+        git checkout "$@"
+    fi
+}
