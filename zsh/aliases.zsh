@@ -20,6 +20,7 @@ alias flow-typed="./node_modules/.bin/flow-typed"
 alias jest="./node_modules/.bin/jest"
 alias prettier="./node_modules/.bin/prettier"
 alias eslint="./node_modules/.bin/eslint"
+alias tailwind="./node_modules/.bin/tailwind"
 
 # Utils
 alias uuid="uuidgen | tr -d '\n' | tr '[:upper:]' '[:lower:]' | pbcopy && pbpaste && echo"
