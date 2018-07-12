@@ -22,3 +22,11 @@ function gco() {
         git checkout "$@"
     fi
 }
+
+function gdb() {
+    if [ $# -eq 0 ]; then
+        git branch -d $(gb | pick | awk '{print $1;}')
+    else
+        git branch -d "$@"
+    fi
+}
