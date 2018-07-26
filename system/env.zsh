@@ -1,4 +1,4 @@
-export EDITOR='atom'
+export EDITOR='code --new-window'
 export HOMEBREW_NO_ANALYTICS=1
 
 # Disable composer warnings about xdebug
