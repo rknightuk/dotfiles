@@ -33,6 +33,7 @@ cask 'docker-toolbox'
 cask 'gitify'
 cask 'ngrok'
 cask 'grammarly'
+cask 'react-native-debugger'
 
 mas 'Clocks', id: 414554506
 mas 'Boxy', id: 1053031090
