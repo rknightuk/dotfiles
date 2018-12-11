@@ -35,6 +35,7 @@
         # Make `git rebase` safer on macOS
         # More info: <http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/>
         trustctime = false
+	autocrlf = false
 
 [apply]
         whitespace = nowarn
