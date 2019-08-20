@@ -5,15 +5,7 @@ alias gup='git fetch origin && grb origin/$(git_current_branch)' # gup instead o
 alias grb='git rebase -p'
 
 # Tail Today's FuelPHP App Log
-function fuellog() {
-    base="fuel/app/logs/"`eval date +%Y`"/"`eval date +%m`"/"`eval date +%d`".php"
-    if [ $# -eq 0 ]; then
-        tail -f $base
-    else
-        search="> $@"
-        tail -f $base | grep --line-buffered "$search"
-    fi
-}
+alias fuellog="laralog"
 
 function awsenv() {
     profile=$1
@@ -22,4 +14,15 @@ function awsenv() {
     export AWS_SECRET_ACCESS_KEY=$(aws configure get "$profile.aws_secret_access_key")
 
     echo "Prepared environment for AWS profile: $profile"
+}
+
+laralog () {
+	base="storage/logs/"laravel-`eval date +%Y`"-"`eval date +%m`"-"`eval date +%d`".log"
+	if [ $# -eq 0 ]
+	then
+		/usr/local/bin/grc -es --colour=auto tail -f $base
+	else
+		search="> $@"
+		/usr/local/bin/grc -es --colour=auto tail -f $base | grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn} --line-buffered "$search"
+	fi
 }
