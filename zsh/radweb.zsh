@@ -16,7 +16,7 @@ function awsenv() {
     echo "Prepared environment for AWS profile: $profile"
 }
 
-laralog () {
+function laralog() {
 	base="storage/logs/"laravel-`eval date +%Y`"-"`eval date +%m`"-"`eval date +%d`".log"
 	if [ $# -eq 0 ]
 	then
