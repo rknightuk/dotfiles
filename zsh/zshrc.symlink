@@ -55,3 +55,4 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 export PATH="$PATH:$ANDROID_HOME/tools"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
