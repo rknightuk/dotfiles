@@ -13,6 +13,7 @@
         helper = osxkeychain
 
 [alias]
+        yeet = reset
         co = checkout
         cp = cherry-pick
         wtf     = !$DOTFILES/bin/git-wtf
