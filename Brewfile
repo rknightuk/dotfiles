@@ -14,6 +14,7 @@ brew 'pinentry-mac'
 brew 'yarn'
 brew 'mas'
 brew 'pick'
+brew 'github/gh/gh'
 
 cask '1password'
 cask 'atom'
