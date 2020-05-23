@@ -1,50 +1,56 @@
-tap 'caskroom/cask'
+tap "caskroom/cask"
 
-brew 'ack'
-brew 'git'
-brew 'coreutils'
-brew 'grc'
-brew 'unrar'
-brew 'wget'
-brew 'thefuck'
-brew 'hub'
-brew 'gpg'
-brew 'gpg-agent'
-brew 'pinentry-mac'
-brew 'yarn'
-brew 'mas'
-brew 'pick'
-brew 'github/gh/gh'
+brew "coreutils"
+brew "ffmpeg"
+brew "git"
+brew "github/gh/gh"
+brew "htop"
+brew "mas"
+brew "pick"
+brew "unrar"
+brew "wget"
+brew "youtube-dl"
+
+mas "Airmail", id: 918858936
+mas "Amphetamine", id: 937984704
+mas "Color Note", id: 1099028591
+mas "GarageBand", id: 682658836
+mas "Ghostery Lite", id: 1436953057
+mas "GIF Brewery 3", id: 1081413713
+mas "Glance", id: 1513574319
+mas "iMovie", id: 408981434
+mas "Instapaper", id: 1481302432
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pixelmator", id: 407963104
+mas "Tweetbot", id: 1384080005
+mas "Xcode", id: 497799835
 
 cask '1password'
-cask 'atom'
-cask 'google-chrome'
-cask 'slack'
-cask 'phpstorm'
-cask 'iterm2'
-cask 'virtualbox'
-cask 'vagrant'
-cask 'sequel-pro'
-cask 'keybase'
-cask 'spotify'
+cask 'alfred'
+cask 'audio-hijack'
+cask 'backblaze'
+cask 'choosy'
+cask 'discord'
 cask 'docker'
-cask 'quitter'
-cask 'imageoptim'
-cask 'docker-toolbox'
+cask 'dropbox'
+cask 'fantastical'
+cask 'firefox'
+cask 'forecast'
 cask 'gitify'
-cask 'ngrok'
-cask 'grammarly'
-cask 'react-native-debugger'
-cask 'qlcolorcode'
-cask 'qlstephen'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'qlimagesize'
-cask 'webpquicklook'
-cask 'suspicious-package'
-cask 'quicklookase'
-cask 'qlvideo'
-
-mas 'Clocks', id: 414554506
-mas 'Xcode', id: 497799835
-mas 'littleipsum', id: 405772121
+cask 'google-chrome'
+cask 'iina'
+cask 'imageoptim'
+cask 'iterm2'
+cask 'marked'
+cask 'omnidisksweeper'
+cask 'phpstorm'
+cask 'postman'
+cask 'rectangle'
+cask 'skype'
+cask 'slack'
+cask 'tableplus'
+cask 'transmit'
+cask 'vagrant'
+cask 'virtualbox'

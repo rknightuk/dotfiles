@@ -1,14 +1,11 @@
 export DOTFILES=$HOME/.dotfiles
 export ZSH=$DOTFILES/oh-my-zsh
 
-# Theme configuration
-POWERLEVEL9K_MODE="awesome-patched"
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator time)
-POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+ZSH_THEME="agnoster"
 
-# set theme
-ZSH_THEME="powerlevel9k/powerlevel9k"
+plugins=(jump)
+
+source $ZSH/oh-my-zsh.sh
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
@@ -17,8 +14,6 @@ if [[ -a ~/.localrc ]]
 then
   source ~/.localrc
 fi
-
-DEFAULT_USER="wade"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -46,13 +41,3 @@ do
 done
 
 unset config_files
-
-# added by travis gem
-[ -f /Users/wade/.travis/travis.sh ] && source /Users/wade/.travis/travis.sh
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-
-export PATH="$PATH:$ANDROID_HOME/tools"
-export PATH="$PATH:$ANDROID_HOME/platform-tools"
-export PATH="/usr/local/opt/ruby/bin:$PATH"

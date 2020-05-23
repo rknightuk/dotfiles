@@ -3,18 +3,12 @@
 ## Install
 
 ```
-git clone --recursive git@github.com:iWader/dotfiles.git ~/.dotfiles
+git clone --recursive git@github.com:rknightuk/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
 
 Periodically run `dot`, this will keep your environment updated. You can find the file at `bin/dot`.
-
-## iTerm2 Settings
-
-1. Preferences > Profiles
-2. Under the *Colors* tab *Load Presets* using `~/.dotfiles/iterm2/cobalt2.itermcolors`
-3. Under the *Text* tab change the font for each type (*Regular* and *Non-ASCII*) to '**Inconsolata for Powerline**' found under `~/.dotfiles/fonts`.
 
 ## components
 
@@ -37,20 +31,12 @@ There's a few special files in the hierarchy.
 ## Credits
 
 - Originally forked from [holman/dotfiles][fork]
-- Cobalt2 (iTerm) [wesbos/Cobalt2-iterm][iterm-theme]
-- powerlevel9k (ZSH) [bhilburn/powerlevel9k][zsh-theme]
 - Completion [zsh-users/zsh-completions][zsh-completions]
-- Powerline Fonts [powerline/fonts][powerline]
-- Awesome Terminal Fonts [gabrielelana/awesome-terminal-fonts][awesome-terminal-fonts]
 
 ## License
 
 MIT. See [LICENSE][license] file for more info.
 
 [fork]: https://github.com/holman/dotfiles
-[iterm-theme]: https://github.com/wesbos/Cobalt2-iterm
-[zsh-theme]: https://github.com/bhilburn/powerlevel9k
 [zsh-completions]: https://github.com/zsh-users/zsh-completions
-[powerline]: https://github.com/powerline/fonts
-[awesome-terminal-fonts]: https://github.com/gabrielelana/awesome-terminal-fonts
 [license]: LICENSE.md

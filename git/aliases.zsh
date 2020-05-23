@@ -1,23 +1,13 @@
-# Use `hub` as our git wrapper:
-#   http://defunkt.github.com/hub/
-hub_path=$(which hub)
-if (( $+commands[hub] ))
-then
-  alias git=$hub_path
-fi
+function git_current_branch() {
+    git symbolic-ref HEAD 2> /dev/null | sed -e 's/refs\/heads\///'
+}
 
-# The rest of my fun git aliases
-alias gl="git log --oneline --decorate --graph --date=relative"
-alias gp='git push origin HEAD'
-alias gc='git commit'
-alias gb='git branch -vv'
-alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
-alias ga='git add --all'
-alias gd='git diff --staged'
+alias g="git status -sb"
+alias gb="git branch"
 
 function gco() {
     if [ $# -eq 0 ]; then
-        git checkout $(gb | pick | awk '{print $1;}')
+        git checkout $(git branch | pick)
     else
         git checkout "$@"
     fi
@@ -25,12 +15,26 @@ function gco() {
 
 function gdb() {
     if [ $# -eq 0 ]; then
-        git branch -d $(gb | pick | awk '{print $1;}')
+        git branch -d $(git branch | pick)
     else
         git branch -d "$@"
     fi
 }
 
-function gitcleanup() {
-    git checkout -q master && git for-each-ref refs/heads/ "--format=%(refname:short)" | while read branch; do mergeBase=$(git merge-base master $branch) && [[ $(git cherry master $(git commit-tree $(git rev-parse $branch^{tree}) -p $mergeBase -m _)) == "-"* ]] && git branch -D $branch; done
-}
+alias ga="git add"
+alias gaa="git add -A"
+alias gap="git add -p"
+alias gc="git commit -v"
+alias grh='git reset --hard'
+alias grb='git rebase -p'
+alias gps='git push origin HEAD:$(git_current_branch)'
+alias gup='git fetch origin && grb origin/$(git_current_branch)' # gup instead of gpl
+alias gds='git diff | sublime -n'
+alias gdcs='git diff --cached | sublime -n'
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gl="git log --graph --pretty=format':%C(red)%h%Cgreen%d%Creset %s %C(blue) %an, %ar%Creset'"
+alias glo="git log --oneline"
+alias grv="git remote -v"
+alias gstats="git shortlog -sn"
+alias hpr="hub pull-request -i"
