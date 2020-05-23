@@ -30,7 +30,11 @@ There's a few special files in the hierarchy.
 
 ## brewfile
 
-Uses [Cask](https://github.com/Homebrew/homebrew-cask) and [https://github.com/mas-cli/mas](https://github.com/mas-cli/mas) to install apps
+Uses the following:
+
+- [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle)
+- [Cask](https://github.com/Homebrew/homebrew-cask)
+- [mas](https://github.com/mas-cli/mas)
 
 ## Credits
 
