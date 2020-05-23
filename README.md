@@ -28,6 +28,10 @@ There's a few special files in the hierarchy.
   but still keep those autoloaded files in your home directory. These get
   symlinked in when you run `script/bootstrap`.
 
+## brewfile
+
+Uses [Cask](https://github.com/Homebrew/homebrew-cask) and [https://github.com/mas-cli/mas](https://github.com/mas-cli/mas) to install apps
+
 ## Credits
 
 - Originally forked from [holman/dotfiles][fork]
