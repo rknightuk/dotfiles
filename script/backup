@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+cp ~/Library/Application\ Support/Choosy/behaviours.plist $DOTFILES/prefs

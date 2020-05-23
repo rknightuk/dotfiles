@@ -6,6 +6,7 @@
     email = desk@rknight.me
 
 [core]
+	excludesfile = ~/.gitignore
     editor = sublime
     safecrlf = true
     autocrlf = false
