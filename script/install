@@ -11,7 +11,9 @@ brew tap homebrew/bundle
 
 # Run Homebrew through the Brewfile
 echo "› bundle (This could take a while)"
+cd ./homebrew
 brew bundle
+cd ..
 
 # find the installers and run them iteratively
 find . -name install.sh -not -path './oh-my-zsh/*' | while read installer ; do sh -c "${installer}" ; done
