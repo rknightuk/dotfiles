@@ -38,13 +38,13 @@ Uses the following:
 
 ## Credits
 
-- Originally forked from [holman/dotfiles][fork]
+- Originally forked from [iwader/dotfiles][fork]
 - Completion [zsh-users/zsh-completions][zsh-completions]
 
 ## License
 
 MIT. See [LICENSE][license] file for more info.
 
-[fork]: https://github.com/holman/dotfiles
+[fork]: https://github.com/iWader/dotfiles
 [zsh-completions]: https://github.com/zsh-users/zsh-completions
 [license]: LICENSE.md
