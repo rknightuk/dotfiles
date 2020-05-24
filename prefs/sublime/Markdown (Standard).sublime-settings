@@ -1,4 +1,4 @@
 // These settings override both User and Default settings for the Markdown (Standard) syntax
 {
-	
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 }

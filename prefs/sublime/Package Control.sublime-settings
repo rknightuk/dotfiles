@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"MarkdownEditing",
 		"Material Theme",
 		"Package Control",
 		"WordCount"
