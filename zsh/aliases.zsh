@@ -1,4 +1,4 @@
-alias reload!='. ~/.zshrc'
+alias reload='. ~/.zshrc'
 
 # open in sublime
 alias s='sublime'
