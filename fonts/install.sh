@@ -20,6 +20,7 @@ copy_fonts () {
 current_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 copy_fonts "$current_dir/powerline"
+copy_fonts "$current_dir/source-code-pro"
 
 # Reset font cache on Linux
 if command -v fc-cache @>/dev/null ; then
