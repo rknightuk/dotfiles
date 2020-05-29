@@ -7,3 +7,5 @@ cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*.sublime-setti
 cp ~/Library/Application\ Support/Audio\ Hijack/Sessions.plist $DOTFILES/prefs/audiohijack
 
 cp ~/Library/Preferences/com.logitech.manager.setting.0006b017.plist $DOTFILES/prefs/logitech
+
+cp /etc/hosts $DOTFILES/prefs/hosts
