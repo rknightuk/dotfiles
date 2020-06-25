@@ -32,7 +32,7 @@
 		<key>enabled</key>
 		<true/>
 		<key>predicate</key>
-		<string>URL CONTAINS "sentry.io" OR URL CONTAINS "basecamp.com" OR URL CONTAINS "github.com" OR URL CONTAINS "intercom.com" OR URL CONTAINS "circleci.com"</string>
+		<string>URL CONTAINS "sentry.io" OR URL CONTAINS "basecamp.com" OR URL CONTAINS "github.com" OR URL CONTAINS "intercom.com" OR URL CONTAINS "circleci.com" OR URL CONTAINS "papertrailapp"</string>
 		<key>title</key>
 		<string>Work</string>
 	</dict>

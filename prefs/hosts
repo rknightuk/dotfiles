@@ -13,18 +13,18 @@
 
 127.0.0.1 homestead.test
 
-127.0.0.1 ib.test
-127.0.0.1 ib.api
-127.0.0.1 ib.docs
-127.0.0.1 ib.admin
-127.0.0.1 ib.story
-127.0.0.1 wl.test
-127.0.0.1 wl.api
+192.168.244.100 ib.test
+192.168.244.100 ib.api
+192.168.244.100 ib.docs
+192.168.244.100 ib.admin
+192.168.244.100 ib.story
+192.168.244.100 wl.test
+192.168.244.100 wl.api
 
 127.0.0.1 pi.test
 127.0.01 pi.api
 
-127.0.0.1 ni.test
+192.168.244.101 ni.test
 
 127.0.0.1 pd.test
 127.0.0.1 pd.story
