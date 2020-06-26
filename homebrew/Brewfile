@@ -1,7 +1,7 @@
 brew "coreutils"
 brew "ffmpeg"
 brew "git"
-brew "github/gh/gh"
+brew "github/gh"
 brew "htop"
 brew "mas"
 brew "pick"
