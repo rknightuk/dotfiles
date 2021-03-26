@@ -21,6 +21,8 @@
 192.168.244.100 wl.test
 192.168.244.100 wl.api
 
+192.168.10.10 safe2.test
+
 127.0.0.1 pi.test
 127.0.01 pi.api
 
@@ -32,3 +34,7 @@
 127.0.0.1 srp.test
 
 127.0.0.1 bookevents.test
+# Added by Docker Desktop
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section

@@ -9,3 +9,5 @@ cp ~/Library/Application\ Support/Audio\ Hijack/Sessions.plist $DOTFILES/prefs/a
 cp ~/Library/Preferences/com.logitech.manager.setting.0006b017.plist $DOTFILES/prefs/logitech
 
 cp /etc/hosts $DOTFILES/prefs/hosts
+
+cp -R ~/Library/Application\ Support/com.clickontyler.TextBuddy/scripts $DOTFILES/prefs/textbuddy/scripts

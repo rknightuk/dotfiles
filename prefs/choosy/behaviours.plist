@@ -59,23 +59,6 @@
 		<key>behaviourArgument</key>
 		<dict>
 			<key>path</key>
-			<string>/Applications/zoom.us.app</string>
-			<key>type</key>
-			<string>ChoosyBrowser</string>
-		</dict>
-		<key>enabled</key>
-		<true/>
-		<key>predicate</key>
-		<string>URL CONTAINS "zoom.us"</string>
-		<key>title</key>
-		<string>Zoom</string>
-	</dict>
-	<dict>
-		<key>behaviour</key>
-		<integer>6</integer>
-		<key>behaviourArgument</key>
-		<dict>
-			<key>path</key>
 			<string>/Applications/OpenInAppleMusic.app</string>
 			<key>type</key>
 			<string>ChoosyBrowser</string>

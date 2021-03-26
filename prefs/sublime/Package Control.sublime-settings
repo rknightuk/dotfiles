@@ -5,9 +5,14 @@
 	],
 	"installed_packages":
 	[
+		"GhostText",
+		"JSX",
+		"Laravel Blade Highlighter",
 		"MarkdownEditing",
+		"MarkdownLivePreview",
 		"Material Theme",
 		"Package Control",
+		"TypeScript",
 		"WordCount"
 	]
 }
