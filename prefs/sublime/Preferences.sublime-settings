@@ -29,7 +29,7 @@
 	"ignored_packages":
 	[
 		"Markdown",
-		"Vintage"
+		"Vintage",
 	],
 	"indent_guide_options":
 	[
@@ -43,5 +43,5 @@
 	"material_theme_bold_tab": true,
 	"scroll_past_end": true,
 	"theme": "Material-Theme.sublime-theme",
-	"word_wrap": "false"
+	"word_wrap": "false",
 }

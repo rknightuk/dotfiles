@@ -13,6 +13,8 @@
 
 127.0.0.1 homestead.test
 
+192.168.10.102 bookevents.test
+
 192.168.244.100 ib.test
 192.168.244.100 ib.api
 192.168.244.100 ib.docs
