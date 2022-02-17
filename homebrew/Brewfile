@@ -8,6 +8,9 @@ brew "pick"
 brew "unrar"
 brew "wget"
 brew "youtube-dl"
+brew "switchaudio-osx"
+brew "blueutil"
+brew "scc"
 
 mas "Airmail", id: 918858936
 mas "Amphetamine", id: 937984704

@@ -26,7 +26,7 @@ alias gaa="git add -A"
 alias gap="git add -p"
 alias gc="git commit -v"
 alias grh='git reset --hard'
-alias grb='git rebase -p'
+alias grb='git rebase --rebase-merges'
 alias gps='git push origin HEAD:$(git_current_branch)'
 alias gup='git fetch origin && grb origin/$(git_current_branch)' # gup instead of gpl
 alias gds='git diff | sublime -n'
@@ -37,4 +37,6 @@ alias gl="git log --graph --pretty=format':%C(red)%h%Cgreen%d%Creset %s %C(blue)
 alias glo="git log --oneline"
 alias grv="git remote -v"
 alias gstats="git shortlog -sn"
-alias hpr="hub pull-request -i"
+function gpr() {
+    open "https://github.com/Radweb/InventoryBase/compare/$(git_current_branch)?expand=1"
+}
