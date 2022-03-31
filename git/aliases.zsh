@@ -1,7 +1,3 @@
-function git_current_branch() {
-    git symbolic-ref HEAD 2> /dev/null | sed -e 's/refs\/heads\///'
-}
-
 alias g="git status -sb"
 alias gb="git branch"
 
@@ -37,6 +33,14 @@ alias gl="git log --graph --pretty=format':%C(red)%h%Cgreen%d%Creset %s %C(blue)
 alias glo="git log --oneline"
 alias grv="git remote -v"
 alias gstats="git shortlog -sn"
+
+function git_current_branch() {
+    git symbolic-ref HEAD 2> /dev/null | sed -e 's/refs\/heads\///'
+}
+
 function gpr() {
-    open "https://github.com/Radweb/InventoryBase/compare/$(git_current_branch)?expand=1"
+    org_repo=$(git remote get-url origin)
+    org_repo=$(echo $org_repo | cut -d':' -f2)
+    org_repo=${org_repo/.git/''}
+    open "https://github.com/${org_repo}/compare/$(git_current_branch)"
 }
