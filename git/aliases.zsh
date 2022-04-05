@@ -42,5 +42,5 @@ function gpr() {
     org_repo=$(git remote get-url origin)
     org_repo=$(echo $org_repo | cut -d':' -f2)
     org_repo=${org_repo/.git/''}
-    open "https://github.com/${org_repo}/compare/$(git_current_branch)"
+    open "https://github.com/${org_repo}/compare/$(git_current_branch)?expand=1"
 }
