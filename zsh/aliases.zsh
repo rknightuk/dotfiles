@@ -4,6 +4,10 @@ alias reload='. ~/.zshrc'
 alias s='sublime'
 alias s.='sublime .'
 
+# open in sublime
+alias c='code'
+alias c.='code .'
+
 # zsh plugin jump
 alias j='jump'
 

@@ -7,7 +7,7 @@
 
 [core]
 	excludesfile = ~/.gitignore
-    editor = sublime
+    editor = code
     safecrlf = true
     autocrlf = false
 

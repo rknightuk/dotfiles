@@ -5,8 +5,8 @@ alias st="networkQuality -v"
 
 function site() {
     if [ $# -eq 0 ]; then
-        cd ~/Sites/personal/$(ls -1 "~/Sites/personal" | pick)
+        cd /Users/robb/Sites/personal/$(ls -1 "/Users/robb/Sites/personal" | pick)
     else
-        cd ~/Sites/personal/"$@"
+        cd /Users/robb/Sites/personal/"$@"
     fi
 }
