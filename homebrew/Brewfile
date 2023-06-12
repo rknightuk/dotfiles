@@ -1,56 +1,150 @@
+tap "aws/tap"
+tap "damascenorafael/tap"
+tap "github/gh"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "interstateone/formulae"
+tap "keith/formulae"
+tap "shivammathur/php"
+tap "smudge/smudge"
+brew "zstd"
+brew "libtiff"
+brew "little-cms2"
+brew "webp"
+brew "jpeg-xl"
+brew "aom"
+brew "blueutil"
+brew "glib"
+brew "python@3.9"
+brew "cairo"
+brew "curl"
+brew "freetds"
+brew "gd"
+brew "php"
+brew "composer"
 brew "coreutils"
+brew "p11-kit"
+brew "unbound"
+brew "gnutls"
+brew "harfbuzz"
+brew "openjpeg"
+brew "leptonica"
+brew "libass"
+brew "libbluray"
+brew "srt"
+brew "tesseract"
 brew "ffmpeg"
+brew "gcc"
+brew "gh"
+brew "ghostscript"
 brew "git"
-brew "github/gh"
+brew "gobject-introspection"
+brew "guile"
+brew "hashcat"
 brew "htop"
+brew "hugo"
+brew "shared-mime-info"
+brew "libheif"
+brew "imagemagick"
+brew "imageoptim-cli"
+brew "jenv"
+brew "jq"
 brew "mas"
+brew "nghttp2"
+brew "php@7.4"
 brew "pick"
+brew "pngpaste"
+brew "pyenv"
+brew "python@3.10"
+brew "python@3.8"
+brew "ruby-build"
+brew "rbenv"
+brew "ripgrep"
+brew "rust"
+brew "scc"
+brew "speedtest-cli"
+brew "switchaudio-osx"
+brew "telnet"
+brew "tree"
 brew "unrar"
 brew "wget"
+brew "xclip"
 brew "youtube-dl"
-brew "switchaudio-osx"
-brew "blueutil"
-brew "scc"
-
-mas "Airmail", id: 918858936
+brew "aws/tap/aws-sam-cli"
+brew "shivammathur/php/php@7.3"
+brew "shivammathur/php/php@8.0"
+brew "smudge/smudge/nightlight"
+cask "alfred"
+cask "audio-hijack"
+cask "backblaze"
+cask "choosy"
+cask "discord"
+cask "docker"
+cask "fantastical"
+cask "firefox"
+cask "forecast"
+cask "gitify"
+cask "google-chrome"
+cask "iina"
+cask "imageoptim"
+cask "marked"
+cask "omnidisksweeper"
+cask "phpstorm"
+cask "postman"
+cask "qlmarkdown"
+cask "rectangle"
+cask "reminders-menubar"
+cask "skype"
+cask "slack"
+cask "tableplus"
+cask "transmit"
+cask "vagrant"
+mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
 mas "Color Note", id: 1099028591
+mas "Craft", id: 1487937127
 mas "GarageBand", id: 682658836
 mas "GIF Brewery 3", id: 1081413713
 mas "Glance", id: 1513574319
+mas "Hand Mirror", id: 1502839586
+mas "HEIC Converter", id: 1294126402
 mas "iMovie", id: 408981434
-mas "Instapaper", id: 1481302432
 mas "Keynote", id: 409183694
+mas "MusicHarbor", id: 1440405750
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Pi-hole Remote", id: 1515445551
 mas "Pixelmator", id: 407963104
+mas "Playgrounds", id: 1496833156
+mas "Save to Pocket", id: 1477385213
 mas "Tweetbot", id: 1384080005
 mas "Xcode", id: 497799835
-
-cask '1password'
-cask 'alfred'
-cask 'audio-hijack'
-cask 'backblaze'
-cask 'choosy'
-cask 'discord'
-cask 'docker'
-cask 'dropbox'
-cask 'fantastical'
-cask 'firefox'
-cask 'forecast'
-cask 'gitify'
-cask 'google-chrome'
-cask 'iina'
-cask 'imageoptim'
-cask 'iterm2'
-cask 'marked'
-cask 'omnidisksweeper'
-cask 'phpstorm'
-cask 'postman'
-cask 'rectangle'
-cask 'skype'
-cask 'slack'
-cask 'tableplus'
-cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox'
+vscode "bierner.markdown-preview-github-styles"
+vscode "bmewburn.vscode-intelephense-client"
+vscode "Catppuccin.catppuccin-vsc"
+vscode "Catppuccin.catppuccin-vsc-icons"
+vscode "DavidAnson.vscode-markdownlint"
+vscode "dbaeumer.vscode-eslint"
+vscode "dracula-theme.theme-dracula"
+vscode "EditorConfig.EditorConfig"
+vscode "enkia.tokyo-night"
+vscode "Equinusocio.vsc-community-material-theme"
+vscode "Equinusocio.vsc-material-theme"
+vscode "equinusocio.vsc-material-theme-icons"
+vscode "esbenp.prettier-vscode"
+vscode "flowtype.flow-for-vscode"
+vscode "formulahendry.auto-rename-tag"
+vscode "Gruntfuggly.todo-tree"
+vscode "idleberg.applescript"
+vscode "janisdd.vscode-edit-csv"
+vscode "junstyle.php-cs-fixer"
+vscode "mechatroner.rainbow-csv"
+vscode "ms-vscode.Theme-MarkdownKit"
+vscode "ronnidc.nunjucks"
+vscode "shufo.vscode-blade-formatter"
+vscode "swordev.phpstan"
+vscode "TzachOvadia.todo-list"
+vscode "usernamehw.errorlens"
+vscode "vscode-icons-team.vscode-icons"
+vscode "yzhang.markdown-all-in-one"
