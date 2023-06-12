@@ -4,7 +4,7 @@ alias reload='. ~/.zshrc'
 alias s='sublime'
 alias s.='sublime .'
 
-# open in sublime
+# open in vscode
 alias c='code'
 alias c.='code .'
 
