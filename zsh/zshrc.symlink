@@ -1,6 +1,8 @@
 export DOTFILES=$HOME/.dotfiles
 export ZSH=$DOTFILES/oh-my-zsh
 
+eval "$(rbenv init - zsh)"
+
 ZSH_THEME="agnoster"
 
 prompt_context() {
@@ -53,3 +55,11 @@ do
 done
 
 unset config_files
+
+# pnpm
+export PNPM_HOME="/Users/robb/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
