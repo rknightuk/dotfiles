@@ -74,12 +74,14 @@ brew "youtube-dl"
 brew "aws/tap/aws-sam-cli"
 brew "shivammathur/php/php@7.3"
 brew "shivammathur/php/php@8.0"
+brew "smudge/smudge/nightlight"
 cask "alfred"
 cask "audio-hijack"
 cask "backblaze"
 cask "choosy"
 cask "discord"
 cask "docker"
+cask "fantastical"
 cask "firefox"
 cask "forecast"
 cask "gitify"
@@ -92,6 +94,7 @@ cask "phpstorm"
 cask "postman"
 cask "qlmarkdown"
 cask "rectangle"
+cask "reminders-menubar"
 cask "skype"
 cask "slack"
 cask "tableplus"
@@ -111,8 +114,11 @@ mas "Keynote", id: 409183694
 mas "MusicHarbor", id: 1440405750
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Pi-hole Remote", id: 1515445551
 mas "Pixelmator", id: 407963104
+mas "Playgrounds", id: 1496833156
 mas "Save to Pocket", id: 1477385213
+mas "Tweetbot", id: 1384080005
 mas "Xcode", id: 497799835
 vscode "bierner.markdown-preview-github-styles"
 vscode "bmewburn.vscode-intelephense-client"

@@ -110,5 +110,8 @@ defaults write com.apple.BluetoothAudioAgent "Negotiated Bitpool Min" 80
 # Hide icons on the desktop, I'm not an animal
 defaults write com.apple.finder CreateDesktop -bool false
 
+# Force Tweetbot to open real urls instead of t.co
+defaults write com.tapbots.Tweetbot3Mac OpenURLsDirectly YES
+
 # Dock hide/show speed
 defaults write com.apple.dock autohide-time-modifier -int 0;killall Dock
