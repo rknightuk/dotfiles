@@ -49,7 +49,7 @@
 		<key>enabled</key>
 		<true/>
 		<key>predicate</key>
-		<string>sourceApp == "/System/Applications/Mail.app" OR sourceApp == "/System/Applications/Messages.app"</string>
+		<string>sourceApp == "/Applications/Alfred 4.app" OR sourceApp == "/Applications/Discord.app" OR sourceApp == "/System/Applications/Mail.app" OR sourceApp == "/System/Applications/Messages.app"</string>
 		<key>title</key>
 		<string>Personal Apps to Safari</string>
 	</dict>
@@ -86,6 +86,30 @@
 		<string>sourceApp == "/Applications/Tweetbot.app" AND URL != "https://music.apple.com"</string>
 		<key>title</key>
 		<string>Tweetbot</string>
+	</dict>
+	<dict>
+		<key>behaviour</key>
+		<integer>4</integer>
+		<key>behaviourArgument</key>
+		<string></string>
+		<key>enabled</key>
+		<true/>
+		<key>predicate</key>
+		<string>runningBrowsers &gt; 0</string>
+		<key>title</key>
+		<string>Some browsers are running</string>
+	</dict>
+	<dict>
+		<key>behaviour</key>
+		<integer>3</integer>
+		<key>behaviourArgument</key>
+		<string></string>
+		<key>enabled</key>
+		<true/>
+		<key>predicate</key>
+		<string>TRUEPREDICATE</string>
+		<key>title</key>
+		<string>Default behaviour</string>
 	</dict>
 </array>
 </plist>

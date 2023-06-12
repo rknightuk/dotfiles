@@ -21,14 +21,13 @@
 	"caret_extra_bottom": 1,
 	"caret_extra_top": 1,
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"color_scheme": "Packages/Theme - Dark Material/schemes/Dark-Material.tmTheme",
 	"font_face": "Source Code Pro",
-	"font_size": 17,
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Markdown",
 		"Vintage",
 	],
 	"indent_guide_options":
@@ -42,6 +41,8 @@
 	"material_theme_arrow_folders": true,
 	"material_theme_bold_tab": true,
 	"scroll_past_end": true,
-	"theme": "Material-Theme.sublime-theme",
+	"theme": "Dark-Material.sublime-theme",
 	"word_wrap": "false",
+	/*"theme": "Dark-Material.sublime-theme",*/
+  	/*"color_scheme": "Packages/Theme - Dark Material/schemes/Dark-Material.tmTheme",*/
 }

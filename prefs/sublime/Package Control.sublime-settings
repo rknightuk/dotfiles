@@ -10,9 +10,13 @@
 		"Laravel Blade Highlighter",
 		"MarkdownEditing",
 		"MarkdownLivePreview",
+		"Marked App Menu",
 		"Material Theme",
+		"Nunjucks",
 		"Package Control",
+		"Swift",
+		"Theme - Dark Material",
 		"TypeScript",
-		"WordCount"
+		"WordingStatus",
 	],
 }
