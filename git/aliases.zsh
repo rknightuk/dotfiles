@@ -25,8 +25,8 @@ alias grh='git reset --hard'
 alias grb='git rebase --rebase-merges'
 alias gps='git push origin HEAD:$(git_current_branch)'
 alias gup='git fetch origin && grb origin/$(git_current_branch)' # gup instead of gpl
-alias gds='git diff | sublime -n'
-alias gdcs='git diff --cached | sublime -n'
+alias gds='git diff | subl -n'
+alias gdcs='git diff --cached | subl -n'
 alias gd='git diff'
 alias gdc='git diff --cached'
 alias gl="git log --graph --pretty=format':%C(red)%h%Cgreen%d%Creset %s %C(blue) %an, %ar%Creset'"

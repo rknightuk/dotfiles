@@ -1,35 +1,9 @@
 ##
 # Host Database
 #
-#
 # localhost is used to configure the loopback interface
-# when the system is booting. Do not change this entry.
+# when the system is booting.  Do not change this entry.
 ##
-127.0.0.1	     localhost
+127.0.0.1	localhost
 255.255.255.255	broadcasthost
-
-
-::1		    localhost
-
-192.168.56.57 almanac.test
-192.168.56.56 micromarks.test
-192.168.56.58 microboxd.test
-192.168.56.56 microbridge.test
-192.168.56.59 nexus.test
-192.168.56.60 lantern.test
-192.168.56.61 alm.test
-
-192.168.10.100 ib.test
-192.168.10.100 ib.api
-192.168.10.100 ib.docs
-192.168.10.100 ib.admin
-192.168.10.100 ib.story
-192.168.10.100 wl.test
-192.168.10.100 wl.api
-
-192.168.10.101 ni.test
-
-# Added by Docker Desktop
-# To allow the same kube context to work on the host and the container:
-127.0.0.1 kubernetes.docker.internal
-# End of section
+::1             localhost
