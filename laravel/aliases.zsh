@@ -13,11 +13,14 @@ function sail()
 {
 	CUSTOM=./bin/sail
 	COMPOSER=./vendor/bin/sail
+	DC=./docker-compose.yml
 	if test -f "$CUSTOM"; then
 		./bin/sail "$@"
 	elif test -f "$COMPOSER"; then
 		./vendor/bin/sail "$@"
+	elif [ -e "$DC" ]; then
+		docker compose "$@"
 	else
-		echo 'No sail found 🚣‍♂️'
+		echo 'No sail or docker-compose.yml file found 🚣‍♂️'
 	fi
 }
