@@ -34,3 +34,5 @@ function work() {
         cd /Users/robb/Developer/work/"$@"
     fi
 }
+
+alias ms="maestral"
