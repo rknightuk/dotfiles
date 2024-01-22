@@ -35,4 +35,12 @@ function work() {
     fi
 }
 
+function macs() {
+    if [ $# -eq 0 ]; then
+        cd /Users/robb/Developer/macstories/$(ls -1 "/Users/robb/Developer/macstories" | pick)
+    else
+        cd /Users/robb/Developer/macstories/"$@"
+    fi
+}
+
 alias ms="maestral"
