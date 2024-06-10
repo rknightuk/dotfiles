@@ -10,6 +10,7 @@
     editor = code
     safecrlf = true
     autocrlf = false
+	compression = 0
 
 [url "git@github.com:"]
 	insteadOf = "gh:"
@@ -20,3 +21,7 @@
   sort = -committerdate
 [init]
 	defaultBranch = main
+[http]
+	postBuffer = 157286400
+[pack]
+	window = 1

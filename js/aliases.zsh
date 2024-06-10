@@ -9,4 +9,4 @@ alias jest="./node_modules/.bin/jest"
 alias prettier="./node_modules/.bin/prettier"
 alias eslint="./node_modules/.bin/eslint"
 
-alias nvminit="echo 20.6.0 > .nvmrc; nvm use;"
+alias nvminit="echo 20.6.1 > .nvmrc; nvm use;"
