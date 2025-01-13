@@ -112,3 +112,6 @@ defaults write com.apple.finder CreateDesktop -bool false
 
 # Dock hide/show speed
 defaults write com.apple.dock autohide-time-modifier -int 0;killall Dock
+
+# Show app switcher on all displays
+defaults write com.apple.Dock appswitcher-all-displays -bool true; killall Dock
