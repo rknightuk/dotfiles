@@ -35,3 +35,4 @@ alias ytmp3='youtube-dl --extract-audio --audio-format mp3'
 # generate uuid
 alias uuid="uuidgen | tr -d '\n' | tr '[:upper:]' '[:lower:]' | pbcopy && pbpaste && echo"
 
+alias att="atuin"
