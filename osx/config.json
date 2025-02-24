@@ -1,0 +1,23 @@
+{
+  "actions" : [
+    {
+      "key" : "c",
+      "label" : "",
+      "type" : "url",
+      "value" : "raycast://extensions/raycast/clipboard-history/clipboard-history"
+    },
+    {
+      "key" : "e",
+      "label" : "",
+      "type" : "url",
+      "value" : "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols"
+    },
+    {
+      "key" : "g",
+      "label" : "",
+      "type" : "url",
+      "value" : "raycast://extensions/rknightuk/gif-library-search/search-gifs"
+    }
+  ],
+  "type" : "group"
+}
