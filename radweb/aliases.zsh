@@ -1,0 +1,1 @@
+alias sailcl='sail artisan make:changelog'
