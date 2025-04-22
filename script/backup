@@ -2,12 +2,8 @@
 
 cp ~/Library/Application\ Support/Choosy/behaviours.plist $DOTFILES/prefs/choosy
 
-cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*.sublime-settings $DOTFILES/prefs/sublime
+cp ~/Library/Application\ Support/Sublime\ Text/Packages/User/*.sublime-settings $DOTFILES/prefs/sublime
 
-cp ~/Library/Application\ Support/Audio\ Hijack/Sessions.plist $DOTFILES/prefs/audiohijack
-
-cp ~/Library/Preferences/com.logitech.manager.setting.0006b017.plist $DOTFILES/prefs/logitech
+cp ~/Library/Application\ Support/Audio\ Hijack\ 4/Sessions.plist $DOTFILES/prefs/audiohijack
 
 cp /etc/hosts $DOTFILES/prefs/hosts
-
-cp -R ~/Library/Application\ Support/com.clickontyler.TextBuddy/scripts $DOTFILES/prefs/textbuddy/scripts

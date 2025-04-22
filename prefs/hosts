@@ -7,3 +7,29 @@
 127.0.0.1	localhost
 255.255.255.255	broadcasthost
 ::1             localhost
+
+# Radweb
+127.0.0.1 ib.test
+127.0.0.1 ib.api
+127.0.0.1 ib.docs
+127.0.0.1 ib.admin
+127.0.0.1 ib.story
+127.0.0.1 wl.test
+127.0.0.1 wl.api
+
+127.0.0.1 ni.test
+127.0.0.1 bookevents.test
+
+127.0.0.1 safe2.test
+
+# Personal
+127.0.0.1 bugle.test
+127.0.0.1 almanac.test
+127.0.0.1 navi.test
+
+127.0.0.1 wordpress-test.local
+
+127.0.0.1 echofeed.test
+127.0.0.1 knightcms.test
+
+127.0.0.1 msv5.test

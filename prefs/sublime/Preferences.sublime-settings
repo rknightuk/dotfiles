@@ -1,0 +1,48 @@
+{
+	"added_words":
+	[
+		"minifigures",
+		"Bricklink",
+		"colour",
+		"minifigure",
+		"dropdown",
+		"colours",
+		"scammers",
+		"judgement",
+		"username",
+		"favourite",
+		"Favourites",
+		"cheque",
+		"online",
+		"polybag",
+		"Brickset"
+	],
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 1,
+	"caret_extra_top": 1,
+	"caret_extra_width": 1,
+	// "color_scheme": "Flexoki Dark Dimmed.sublime-color-scheme",
+	"font_face": "Atkinson Hyperlegible Mono",
+	"font_size": 17,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 4,
+	"line_padding_top": 4,
+	"material_theme_accent_pink": true,
+	"material_theme_arrow_folders": true,
+	"material_theme_bold_tab": true,
+	"scroll_past_end": true,
+	"word_wrap": "false",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "Material-Theme.sublime-theme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"index_files": true,
+}

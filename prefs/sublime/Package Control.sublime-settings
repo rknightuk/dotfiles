@@ -1,0 +1,14 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Flexoki Color Scheme",
+		"MarkdownEditing",
+		"Marked App Menu",
+		"Material Theme",
+		"Package Control",
+	],
+}
