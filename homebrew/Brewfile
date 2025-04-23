@@ -1,8 +1,6 @@
-tap "homebrew/cask"
-brew "mas"
-
 brew "curl"
 brew "composer"
+brew "dnscontrol"
 brew "ffmpeg"
 brew "gh"
 brew "git"

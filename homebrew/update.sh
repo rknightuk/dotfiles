@@ -8,7 +8,7 @@
 # Check for Homebrew
 if test $(which brew)
 then
-  echo "  Updating Homebrew for you."
+  echo "Updating Homebrew for you."
 
   brew update
 fi

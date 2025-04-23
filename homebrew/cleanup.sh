@@ -8,7 +8,7 @@
 # Check for Homebrew
 if test $(which brew)
 then
-  echo "  Cleaning up behind brew"
+  echo "Cleaning up behind brew"
 
   brew cleanup -s
 fi

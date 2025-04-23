@@ -23,6 +23,3 @@ $DOTFILES/homebrew/cleanup.sh 2>&1
 # Install software
 echo "› $DOTFILES/script/install"
 $DOTFILES/script/install
-
-# backup prefs for apps that don't have sync
-$DOTFILES/script/backup
