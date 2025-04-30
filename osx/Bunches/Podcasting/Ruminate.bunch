@@ -1,0 +1,16 @@
+---
+title: Ruminate
+---
+
+General.bunch
+
+vivaldi:https://us06web.zoom.us/j/87156772844?pwd=mmPn0OFpTc8e1X5k71sQEjus8tQtWY.1
+
+$ open -a Notes x-coredata://89A52B7C-2866-471A-A244-2F0F807EA32B/ICNote/p137
+
+$ open -a "Sublime Text" /Users/robb/Library/Mobile\ Documents/com~apple~CloudDocs/knightdrive/20-29\ Podcasts/20\ Ruminate/20.04\ Shownotes/shownotes.md
+
+$ scripts/open_chrome_profile.sh "Profile 5" "https://auphonic.com"
+$ scripts/open_chrome_profile.sh "Profile 5" "https://markdowntohtml.com"
+$ scripts/open_chrome_profile.sh "Profile 5" "https://libsyn.com"
+$ scripts/open_chrome_profile.sh "Profile 5" "https://form.jotform.com/242157512241144"
