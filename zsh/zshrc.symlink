@@ -3,7 +3,7 @@ export ZSH=$DOTFILES/oh-my-zsh
 
 eval "$(rbenv init - zsh)"
 
-ZSH_THEME="agnoster"
+ZSH_THEME="gentoo"
 
 prompt_context() {
   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
